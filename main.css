@@ -1,0 +1,64 @@
+table,
+td{
+    border: 1px solid blueviolet;
+    margin: 3px;
+  
+    
+}
+thead,
+tfoot {
+    background-color: chocolate;
+    color: crimson;
+}
+tbody tr{
+    background-color: grey;
+    color: black;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mica{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgoldenrod;
+}
+.cale{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgreen;
+    text-align: justify;
+}
+.bransa{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkorchid;
+}
+#Bransa{
+    color: darkred;
+    background: darkslategray;
+}
+body{
+    background-image:url('logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+}
+li{
+    /*display: inline;*/
+    list-style: armenian;
+    
+}
+nav li{
+    color: darkviolet;
+}
+#Cale:hover{
+    text-shadow: 5px 10px darkviolet;
+    border: 1px solid  deeppink;
+}
+img{
+    max-width: 100%;
+    float: right;
+}
+nav li:first-child{
+    background-color: firebrick;
+}
